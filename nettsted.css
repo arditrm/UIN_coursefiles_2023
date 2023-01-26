@@ -1,0 +1,61 @@
+:root{
+    --lightblue: #25dfe6;
+    --white: #FFFFFF;
+    --grey: #00c8ff;
+    --maxwidth: 1100px;
+}
+header h1 {
+    text-transform: uppercase;
+}
+
+
+body {
+    background-color: var(--white)
+    
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    border: 3px solid rgb(255, 0, 0);
+}
+nav {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+nav button {
+   
+    background-color: var(--grey);
+    display: inline-block;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    
+}
+
+section {
+    width: 100%;
+    border: 2px solid black;
+
+}
+div.container {
+    width: 90%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 0;
+    justify-content: space-between;
+}
+
